@@ -5,8 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg p-4">
+            <div class="container">
+                <a href="#" class="navbar-brand">Pro Edu</a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav d-flex justify-content-center w-100 gap-lg-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn btn-outline-primary">Register</button>
+            </div>
+        </nav>
+
+        <!-- image slider -->
+        <section class="container mt-3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/cover/cover-1.png" class="bg-dark img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </header>
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
