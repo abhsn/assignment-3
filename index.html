@@ -18,12 +18,12 @@
 </head>
 <body>
     <!-- header -->
-    <header class="mb-5">
+    <header class="mb-5 mt-3">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a href="#" class="navbar-brand">Pro Edu</a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav d-flex justify-content-center w-100 gap-lg-3">
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav d-flex justify-content-center w-100 gap-lg-3 align-items-center">
                         <li class="nav-item">
                             <a href="#" class="nav-link">Home</a>
                         </li>
@@ -36,9 +36,17 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">About</a>
                         </li>
+                        <li class="nav-item">
+                            <button class="btn btn btn-outline-primary d-md-none">Register</button>
+                        </li>
                     </ul>
                 </div>
-                <button class="btn btn btn-outline-primary">Register</button>
+                <div class="d-flex gap-3">
+                    <button class="btn btn btn-outline-primary d-none d-md-block">Register</button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>                  
+                </div>
             </div>
         </nav>
 
@@ -71,11 +79,11 @@
                     </div>
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button class="carousel-control-prev d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <button class="carousel-control-next d-none d-md-block" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -172,11 +180,11 @@
         <!-- Register Div -->
         <section class="container p-5 bg-primary mt-5">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-md-12 flex-column text-center text-lg-start">
                     <h2 class="text-white">Ready to join?</h2>
-                    <p class="text-white w-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p class="text-white w-75 m-lg-0 m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center mt-lg-0 mt-3">
                     <button class="btn btn-light text-primary">Register Now</button>
                 </div>
             </div>
@@ -223,7 +231,7 @@
         </section>
 
         <!-- trusted users -->
-        <section class="container text-center mt-5">
+        <section class="container text-center mt-5 d-none d-lg-block">
             <h2>Trusted by over 800+ companies</h2>
             <div class="row mt-3 d-flex align-items-center">
                 <div class="col">
@@ -259,10 +267,10 @@
             <span><a href="#" class="link-light text-decoration-none">Privacy Policy</a> <span class="mx-2">|</span> <a href="#" class="link-light text-decoration-none">Terms of use</a></span>
             <!-- social media -->
             <div class="d-flex gap-3 mt-3">
-                <a href="#" class="link-light text-decoration-none"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="link-light text-decoration-none"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="link-light text-decoration-none"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="link-light text-decoration-none"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="link-light text-decoration-none"><i class="social-icon bi bi-facebook"></i></a>
+                <a href="#" class="link-light text-decoration-none"><i class="social-icon bi bi-twitter"></i></a>
+                <a href="#" class="link-light text-decoration-none"><i class="social-icon bi bi-linkedin"></i></a>
+                <a href="#" class="link-light text-decoration-none"><i class="social-icon bi bi-instagram"></i></a>
             </div>
         </div>
     </footer>
