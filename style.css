@@ -1,11 +1,31 @@
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-a {
-    font-family: 'Roboto', sans-serif;
+a, button {
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .social-icon {
     font-size: 1.5rem;
+}
+
+.card {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .card-image {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-text {
+        border: 1px solid rgba(0, 0, 0, 0.1) !important;
+        border-top: none !important;
+    }
 }

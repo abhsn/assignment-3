@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orange Classes</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <!-- bootstrap icons -->
@@ -14,12 +14,12 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- header -->
-    <header class="mb-5 mt-3">
-        <nav class="navbar navbar-expand-lg">
+    <!-- header starts here-->
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg py-5">
             <div class="container">
                 <a href="#" class="navbar-brand">Pro Edu</a>
                 <div class="collapse navbar-collapse" id="navmenu">
@@ -51,30 +51,30 @@
         </nav>
 
         <!-- image slider -->
-        <section class="container mt-5">
+        <section class="container">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active bg-dark">
-                    <img src="images/cover/cover-1.png" class="d-block w-100 opacity-50" alt="...">
-                    <div class="carousel-caption d-none d-md-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 opacity-25" alt="...">
+                    <div class="carousel-caption d-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
                       <h1>Get Started Digital Learning</h1>
-                      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                      <p>Learn in 30 days only! Don't worry we will be there for you. You will get full support from our profession techers.</p>
                       <button class="btn btn-lg btn-primary">Get Started</button>
                     </div>
                   </div>
                   <div class="carousel-item bg-dark">
-                    <img src="images/cover/cover-2.png" class="d-block w-100 opacity-50" alt="...">
-                    <div class="carousel-caption d-none d-md-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
-                      <h1>Second slide label</h1>
-                      <p>Some representative placeholder content for the second slide.</p>
+                    <img src="images/cover/cover-2.png" class="d-block w-100 opacity-25" alt="...">
+                    <div class="carousel-caption d-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
+                      <h1>Full Support</h1>
+                      <p>We guarantee 24/7 online support. No matter what happens you will get us.</p>
                       <button class="btn btn-lg btn-primary">Get Started</button>
                     </div>
                   </div>
                   <div class="carousel-item bg-dark">
-                    <img src="images/cover/cover-3.png" class="d-block w-100 opacity-50" alt="...">
-                    <div class="carousel-caption d-none d-md-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
-                      <h1>Third slide label</h1>
-                      <p>Some representative placeholder content for the third slide.</p>
+                    <img src="images/cover/cover-3.png" class="d-block w-100 opacity-25" alt="...">
+                    <div class="carousel-caption d-flex position-absolute h-100 top-0 d-flex align-items-center justify-content-center flex-column">
+                      <h1>Schedule Flexibility</h1>
+                      <p>Join your classes whenever you want. Our classes are pre-recorded. So it doesn't matter what your schedule is.</p>
                       <button class="btn btn-lg btn-primary">Get Started</button>
                     </div>
                   </div>
@@ -91,119 +91,180 @@
         </section>
         
     </header>
+    <!-- header ends here -->
 
-    <!-- main -->
+    <!-- main starts here-->
     <main class="container py-5">
-        <h2 class="text-center">Get Started Digital Learning</h2>
-        <p class="text-center w-75 m-auto fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quia libero dignissimos odio repellat molestiae eveniet voluptate. Veniam, rem temporibus!</p>
+        <h2 class="text-center">Discover Our Popular Courses</h2>
+        <p class="text-center w-75 m-auto fw-light">You can choose your desired course from our verity of options. We provide almost hundreds of courses. So, you will never stop learning.</p>
 
-        <!-- grid -->
-        <div class="container mt-5 mb-0">
+        <!-- popular courses / cards -->
+        <div class="container mt-5 mb-3">
             <div class="row gx-5 gy-3">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-0 card">
                     <div class="row gap-0">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-1.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0">
+                        <!-- card images -->
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-1.png" alt="">
+                        </div>
+                        <!-- card texts -->
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
                             <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Get insights on how digital screen layout works.</p>
+                            <p class="text-primary m-0">Price: $20</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 border-0 card">
+                    <div class="row">
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-2.png" alt="">
+                        </div>
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
+                            <h6 class="m-0 fw-bold">Javascript Basic to advanced</h6>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Learn the most popular programming language on the planet.</p>
                             <p class="text-primary m-0">Price: 20$</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-0 card">
                     <div class="row">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-2.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border">
-                            <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-3.png" alt="">
+                        </div>
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
+                            <h6 class="m-0 fw-bold">Fullstack Web Development</h6>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <p class="text-primary m-0">Price: 20$</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-0 card">
                     <div class="row">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-3.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border">
-                            <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="text-primary m-0">Price: 20$</p>
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-4.png" alt="">
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="row">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-4.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border">
-                            <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
+                            <h6 class="m-0 fw-bold">Digital Marketing</h6>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
                             <p class="text-primary m-0">Price: 20$</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-0 card">
                     <div class="row">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-5.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border">
-                            <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p class="text-primary m-0">Price: 20$</p>
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-5.png" alt="">
+                        </div>
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
+                            <h6 class="m-0 fw-bold">Photography Basic Rules</h6>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Want to know how light works? Join us now.</p>
+                            <p class="text-primary m-0">Price: $20</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-6 border-0 card">
                     <div class="row">
-                        <div class="col-4 p-0"><img class="w-100" src="images/course/course-6.png" alt=""></div>
-                        <div class="col-8 d-flex flex-column justify-content-center gap-lg-2 border">
-                            <h6 class="m-0 fw-bold">Fundamentals of UI/UX Design</h6>
-                            <p class="m-0 lh-sm fw-light">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                        <div class="col-12 col-sm-4 p-0">
+                            <img class="w-100 card-image" src="images/course/course-6.png" alt="">
+                        </div>
+                        <div class="py-3 py-md-0 col-12 col-sm-8 d-flex flex-column justify-content-center gap-lg-2 border border-start-0 card-text">
+                            <h6 class="m-0 fw-bold">Motion Graphics</h6>
+                            <p class="my-1 my-md-4 m-lg-0 lh-sm fw-light">Want to learn some animation? Get started with basic to advanced animation.</p>
                             <p class="text-primary m-0">Price: 20$</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-6">
-                    
                 </div>
             </div>
         </div>
 
-        <div class="container d-flex justify-content-center d-lg-flex d-md-none d-sm-flex">
+        <div class="container d-flex justify-content-center d-lg-flex d-md-none d-sm-flex pb-5">
             <button class="d-block btn btn-primary">See More Courses</button>
         </div>
 
         <!-- Register Div -->
-        <section class="container p-5 bg-primary mt-5">
+        <section class="container mt-md-5 p-5 bg-primary">
+            <!-- Register text and button -->
             <div class="row">
                 <div class="col-lg-8 col-md-12 flex-column text-center text-lg-start">
-                    <h2 class="text-white fw-bold">Ready to join?</h2>
-                    <p class="text-white w-75 m-lg-0 m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <h2 class="text-white fw-bold mb-4">Ready to join?</h2>
+                    <p class="text-white w-75 m-lg-0 m-auto">If you have decided to get started with us register your account with username and email address.</p>
                 </div>
                 <div class="col-lg-4 d-flex align-items-center justify-content-center mt-lg-0 mt-3">
-                    <button class="btn btn-light text-primary">Register Now</button>
+                    <button class="btn btn-light text-primary" data-bs-toggle="modal" data-bs-target="#register">Register Now</button>
                 </div>
             </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="register" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    <div class="modal-body">
+                        <form action="">
+                            <label for="first-name" class="col-form-label">
+                                First Name
+                            </label>
+                            <input type="text" class="form-control" id="first-name">
+
+                            <label for="last-name" class="col-form-label">
+                                Last Name
+                            </label>
+                            <input type="text" class="form-control" id="last-name">
+
+                            <label for="username" class="col-form-label">
+                                Username
+                            </label>
+                            <input type="text" class="form-control" id="username">
+
+                            <label for="email" class="col-form-label">
+                                E-mail
+                            </label>
+                            <input type="email" class="form-control" id="email">
+
+                            <label for="password" class="col-form-label">
+                                Password
+                            </label>
+                            <input type="password" class="form-control" id="password">
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
         </section>
 
         <!-- FAQ -->
-        <section class="container mt-5 text-center">
+        <section class="container py-5 mt-5 text-center">
             <h2>Frequently Asked Questions</h2>
             <p class="w-75 m-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             <div class="mt-3">
-                <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion accordion-flush" id="faq">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="flush-headingOne">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          Accordion Item #1
+                          What's the differnece between flexbox and grid?
                         </button>
                       </h2>
-                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            <span>
+                                The basic differnece between <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout" class="link">flexbox</a> and <a href="#" class="link">grid</a> is that <code>flexbox</code> was desinged for one dimensional layout, either a row or column can be handled at same time. On the other hand, <code>grid</code> was desinged for two dimensional layout, both row and column can be handled at the same time. Say, you have five divs under a div called wrapper using flexbox with <code>wrap</code> value in <code>flex-wrap</code> property and your wrapper divs width is 600px. Each div under the wrapper is <code>200px</code> by width. Now first three divs will be in first row containing <code>200px</code> each. But, last two divs will take full available width without respecting divs specified width. So, fix this problem you have to either use two rows in <code>flexbox</code> or you can use <code>grid</code> with <code>grid-template-columns: repeat(3, 1fr);</code> declatation.
+                            </span>
+                        </div>
                       </div>
                     </div>
                     <div class="accordion-item">
@@ -212,7 +273,7 @@
                           Accordion Item #2
                         </button>
                       </h2>
-                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#faq">
                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                       </div>
                     </div>
@@ -222,7 +283,7 @@
                           Accordion Item #3
                         </button>
                       </h2>
-                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#faq">
                         <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                       </div>
                     </div>
@@ -255,8 +316,9 @@
             </div>
         </section>
     </main>
+    <!-- main ends here -->
 
-    <!-- footer -->
+    <!-- footer starts here -->
     <footer class="bg-dark mt-5">
         <div class="container d-flex bg-dark p-5 text-white justify-content-center align-items-center flex-column">
             <h3 class="fw-bold">Pro Edu</h3>
@@ -274,6 +336,7 @@
             </div>
         </div>
     </footer>
+    <!-- footer ends here -->
 
     <!-- bootstrap javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
