@@ -21,3 +21,18 @@ a, button {
         border-top: none !important;
     }
 }
+
+@media screen and (max-width: 435px) {
+    .banner-button {
+        font-size: 1em;
+        padding: 4px 8px;
+    }
+
+    .banner-title {
+        font-size: 25px;
+    }
+
+    .banner-text {
+        font-size: 14px;
+    }
+}
