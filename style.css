@@ -36,3 +36,17 @@ a, button {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .banner-button {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 20px;
+    }
+
+    .banner-text {
+        font-size: 12px;
+    }
+}
