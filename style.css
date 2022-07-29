@@ -10,18 +10,10 @@ a, button {
     font-size: 1.5rem;
 }
 
-.card {
-    cursor: pointer;
-}
-
 @media screen and (max-width: 576px) {
     .card-image {
         height: 200px;
         object-fit: cover;
-    }
-
-    .card {
-        border: none;
     }
 
     .card-text {
